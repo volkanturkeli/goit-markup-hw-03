@@ -241,13 +241,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 1128px; 
+  width: 1128px;
 }
 
 .our-portfolio li {
-  width: 360px; 
-  height: 420px; 
-  text-align: left; 
+  width: 360px;
+  height: 420px;
+  text-align: left;
 }
 
 .our-portfolio img {
@@ -280,7 +280,6 @@ body {
   width: 1440px;
   height: 312px;
   display: inline-flex;
-
 }
 
 .page-footer a {
@@ -298,7 +297,6 @@ body {
   font-size: 18px;
   line-height: 1.3em;
   letter-spacing: 3%;
-  
 }
 
 .studio-footer {
