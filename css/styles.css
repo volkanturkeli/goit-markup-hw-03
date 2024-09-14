@@ -17,6 +17,13 @@ body {
   align-items: center;
 }
 
+
+.header-div{
+
+  display: flex
+
+}
+
 .header-logo {
   width: 115px;
   height: 24px;
