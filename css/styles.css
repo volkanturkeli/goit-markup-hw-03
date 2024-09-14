@@ -213,6 +213,7 @@ body {
   cursor: pointer;
   width: 264px;
   height: 260px;
+  display: block
 }
 .main-section-tree p {
   font-style: bold;
@@ -255,6 +256,7 @@ body {
   height: 300px;
   margin-left: px;
   cursor: pointer;
+  display: block
 }
 
 .our-portfolio h3 {
