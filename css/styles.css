@@ -60,6 +60,12 @@ body {
   align-items: center;
 }
 
+.header-nav-ul{
+  display: flex;
+  gap: 40px;
+
+}
+
 .header li {
   list-style-type: none;
   display: inline;
