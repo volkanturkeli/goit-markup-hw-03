@@ -12,6 +12,7 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
 }
 
 .header {
@@ -23,9 +24,7 @@ body {
   align-items: center;
 }
 
-.header-div {
-  display: flex;
-}
+
 
 .header-logo {
   width: 115px;
@@ -37,7 +36,6 @@ body {
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
-  margin-left: 156px;
 }
 
 .web {
@@ -85,7 +83,6 @@ body {
   letter-spacing: 2%;
   cursor: pointer;
   text-align: right;
-  margin-left: 120px;
 }
 
 .header-adress a {
