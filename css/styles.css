@@ -60,7 +60,7 @@ body {
   align-items: center;
 }
 
-.header-nav-ul {
+.header-nav-menu-ul {
   display: flex;
   gap: 40px;
 }
