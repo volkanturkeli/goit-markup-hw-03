@@ -203,6 +203,8 @@ body {
   margin-top: 152px;
   box-sizing: border-box;
   text-align: center;
+  padding: 120px 0;
+
 }
 
 .main-section-ourteam {
@@ -213,10 +215,11 @@ body {
   letter-spacing: 2%;
   margin-bottom: 100px;
   font-style: bold;
+  margin-bottom: 72px
 }
-.main-section-tree ul {
+.main-section-tree-ul {
   display: flex;
-  gap: 100px;
+  gap: 24px;
 }
 
 .main-section-tree li {
