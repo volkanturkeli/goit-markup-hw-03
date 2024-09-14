@@ -60,10 +60,9 @@ body {
   align-items: center;
 }
 
-.header-nav-ul{
+.header-nav-ul {
   display: flex;
   gap: 40px;
-
 }
 
 .header li {
@@ -201,7 +200,7 @@ body {
 
 .main-section-ourteam {
   color: #2e2f42;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 36px;
   line-height: 2.5em;
   letter-spacing: 2%;
@@ -266,13 +265,12 @@ body {
 .our-portfolio img {
   width: 360px;
   height: 300px;
-  margin-left: px;
   cursor: pointer;
   display: block;
 }
 
 .our-portfolio h3 {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.5em;
   letter-spacing: 2%;
@@ -293,7 +291,6 @@ body {
   display: flex;
   width: 1440px;
   height: 312px;
-  display: inline-flex;
   padding: 100px 0;
 }
 
