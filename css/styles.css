@@ -7,6 +7,13 @@ body {
 }
 
 /* HEADER */
+.container{
+  width: 1440px; /* Varsayılan genişlik */
+  margin: 0 auto; /* Ortalamak için */
+  padding:0 15px; 
+
+}
+
 .header-container {
   background-color: #e7e9fc;
   color: #2e2f42;
