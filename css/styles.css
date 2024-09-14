@@ -36,6 +36,7 @@ body {
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .web {
@@ -65,7 +66,6 @@ body {
 .header li {
   list-style-type: none;
   display: inline;
-  padding: 40px;
 }
 
 .header-nav-menu a {
