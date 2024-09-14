@@ -115,12 +115,13 @@ body {
   width: 1440px;
   height: 600px;
   display: inline-block;
+  padding: 188px 0;
+
 }
 
-.main-section-one h1 {
-  width: 496px;
-  height: 120px;
-  margin-top: 200px;
+.main-section-one-h1 {
+  max-width: 496px;
+    height: 120px;
   margin-left: 472px;
   color: #ffffff;
   font-weight: 700;
@@ -130,18 +131,22 @@ body {
   text-align: center;
 }
 
-.main-section-one button {
-  width: 169px;
+.main-section-one-button {
+  min-width: 169px;
   height: 56px;
-  margin-left: 638px;
-  background-color: #4d5ae5;
+  margin: 0 auto;
+    background-color: #4d5ae5;
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
   cursor: pointer;
+  border: none;
   border-radius: 4px;
   padding: 16px, 32px, 16px, 32px;
+  display: block;
+
+
 }
 
 .main-section-one button:hover {
