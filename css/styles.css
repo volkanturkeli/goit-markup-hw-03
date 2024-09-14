@@ -7,18 +7,14 @@ body {
 }
 
 /* HEADER */
-.header-container {
+.header {
   background-color: #e7e9fc;
   color: #2e2f42;
-  width: 1158px;
+  width: 1440px;
   height: 72px;
   border: 1px solid #e7e9fc;
   display: flex;
   align-items: center;
-}
-
-.header {
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-logo {
@@ -31,7 +27,7 @@ body {
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
-  margin-left: 160px;
+  margin-left: 156px;
 }
 
 .web {
@@ -59,7 +55,7 @@ body {
 .header li {
   list-style-type: none;
   display: inline;
-  padding: 20px;
+  padding: 40px;
 }
 
 .header-nav-menu a {
@@ -101,12 +97,12 @@ body {
   width: 1440px;
   height: 600px;
   display: inline-block;
-  padding: 188px 0
 }
 
 .main-section-one h1 {
-  max-width: 496px;
-   height: 120px;
+  width: 496px;
+  height: 120px;
+  margin-top: 200px;
   margin-left: 472px;
   color: #ffffff;
   font-weight: 700;
@@ -117,7 +113,7 @@ body {
 }
 
 .main-section-one button {
-  min-width: 169px;
+  width: 169px;
   height: 56px;
   margin-left: 638px;
   background-color: #4d5ae5;
@@ -128,8 +124,6 @@ body {
   cursor: pointer;
   border-radius: 4px;
   padding: 16px, 32px, 16px, 32px;
-  display: block;
-  border: none;
 }
 
 .main-section-one button:hover {
@@ -219,7 +213,6 @@ body {
   cursor: pointer;
   width: 264px;
   height: 260px;
-  display: block;
 }
 .main-section-tree p {
   font-style: bold;
@@ -262,7 +255,6 @@ body {
   height: 300px;
   margin-left: px;
   cursor: pointer;
-  display: block;
 }
 
 .our-portfolio h3 {
