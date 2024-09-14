@@ -7,21 +7,24 @@ body {
 }
 
 /* HEADER */
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .header {
   background-color: #e7e9fc;
   color: #2e2f42;
   width: 1440px;
   height: 72px;
   border: 1px solid #e7e9fc;
-  display: flex;
   align-items: center;
 }
 
-
-.header-div{
-
-  display: flex
-
+.header-div {
+  display: flex;
 }
 
 .header-logo {
@@ -220,7 +223,7 @@ body {
   cursor: pointer;
   width: 264px;
   height: 260px;
-  display: block
+  display: block;
 }
 .main-section-tree p {
   font-style: bold;
@@ -263,7 +266,7 @@ body {
   height: 300px;
   margin-left: px;
   cursor: pointer;
-  display: block
+  display: block;
 }
 
 .our-portfolio h3 {
