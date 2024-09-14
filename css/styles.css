@@ -91,6 +91,8 @@ body {
   letter-spacing: 2%;
   cursor: pointer;
   text-align: right;
+  display: flex;
+  gap: 40px;
 }
 
 .header-adress a {
@@ -157,7 +159,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 120px 0
+  padding: 120px 0;
 }
 
 .main-section-two ul {
@@ -204,7 +206,6 @@ body {
   box-sizing: border-box;
   text-align: center;
   padding: 120px 0;
-
 }
 
 .main-section-ourteam {
@@ -215,7 +216,7 @@ body {
   letter-spacing: 2%;
   margin-bottom: 100px;
   font-style: bold;
-  margin-bottom: 72px
+  margin-bottom: 72px;
 }
 .main-section-tree-ul {
   display: flex;
