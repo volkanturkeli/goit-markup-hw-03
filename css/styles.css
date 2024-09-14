@@ -24,8 +24,6 @@ body {
   align-items: center;
 }
 
-
-
 .header-logo {
   width: 115px;
   height: 24px;
@@ -35,7 +33,6 @@ body {
   letter-spacing: 3%;
   cursor: pointer;
   text-decoration: none;
-  text-transform: uppercase;
   margin-right: 76px;
 }
 
@@ -291,7 +288,7 @@ body {
   width: 1440px;
   height: 312px;
   display: inline-flex;
-  padding: 100px ;
+  padding: 100px;
 }
 
 .page-footer a {
