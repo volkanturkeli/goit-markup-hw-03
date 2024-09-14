@@ -289,6 +289,7 @@ body {
   width: 1440px;
   height: 312px;
   display: inline-flex;
+  padding: 100px 0
 }
 
 .page-footer a {
