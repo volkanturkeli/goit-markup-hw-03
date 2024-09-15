@@ -175,14 +175,14 @@ body {
   overflow: hidden;
 }
 
-.main-section-two ul {
+.ul-main-section-two {
   display: flex;
   list-style-type: none;
   gap: 24px;
 }
 
-.main-section-two li {
-  width: 264px;
+.li-main-section-two {
+  width: calc((100% - 72px) / 4);
   height: 104px;
   display: flex;
   flex-direction: column;
@@ -190,12 +190,13 @@ body {
   align-items: flex-start;
 }
 
-.main-section-two h3 {
+.h3-main-section-two {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5em;
   letter-spacing: 2%;
+  margin-bottom: 8px;
 }
 
 .main-section-two p {
