@@ -71,6 +71,10 @@ body {
   font-style: normal;
 }
 
+.li-of-a {
+  padding: 24px 0;
+}
+
 .header-nav-menu a {
   text-decoration: none;
   color: #2e2f42;
