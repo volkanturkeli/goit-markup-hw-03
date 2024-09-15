@@ -43,14 +43,14 @@ body {
   margin-right: 76px;
 }
 
-.web {
+.header-logo-web {
   color: #4d5ae5;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.3em;
   letter-spacing: 3%;
 }
-.studio {
+.header-logo-studio {
   color: #2e2f42;
   font-weight: 700;
   font-size: 18px;
@@ -382,7 +382,7 @@ body {
   letter-spacing: 3%;
 }
 
-.studio-footer {
+.footer-logo-studio {
   font-weight: 700px;
   font-size: 18px;
   line-height: 1.3em;
