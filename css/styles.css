@@ -213,10 +213,7 @@ body {
 /* MAIN SECTION TREE */
 
 .main-section-tree {
-  width: 1440px;
-  height: 732px;
   background-color: #f4f4fd;
-  margin-top: 152px;
   box-sizing: border-box;
   text-align: center;
   padding: 120px 0;
@@ -228,9 +225,7 @@ body {
   font-size: 36px;
   line-height: 2.5em;
   letter-spacing: 2%;
-  margin-bottom: 100px;
   font-style: bold;
-  margin-bottom: 72px;
 }
 .ul-main-section-tree {
   display: flex;
@@ -240,26 +235,19 @@ body {
 .li-main-section-tree {
   background-color: #ffffff;
   list-style-type: none;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
-
-.mark-product-designer{
+.mark-product-designer {
   padding: 32px 0;
-
 }
 .h3-main-section-tree {
-
   text-align: center;
   margin-bottom: 8px;
 }
-.p-main-section-tree{
-  text-align: center,
-
+.p-main-section-tree {
+  text-align: center;
 }
 
 .main-section-tree img {
@@ -281,28 +269,75 @@ body {
 /* MAIN SECTION TREE END */
 
 /* OUR PORTFOLIO */
+.our-portfolio {
+  padding: 120px 0;
+}
 
-.our-portfolio h2 {
+.h2-our-portfolio {
   font-weight: 700px;
   font-size: 36px;
   line-height: 2.5em;
   text-align: center;
   letter-spacing: 2%;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
-.our-portfolio ul {
-  list-style: none;
+.ul-our-portfolio {
   display: flex;
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  list-style: none;
   justify-content: space-between;
   width: 1128px;
 }
 
-.our-portfolio li {
+.li-our-portfolio {
   width: 360px;
   height: 420px;
   text-align: left;
+}
+
+.marketing-app {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+.cashless-payment-marketing {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
+.meditation-app {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
+.taxi-services {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
+.screen-desing {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
+.online-courses {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 .our-portfolio img {
@@ -312,7 +347,7 @@ body {
   display: block;
 }
 
-.our-portfolio h3 {
+.h3-our-portfolio {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5em;
