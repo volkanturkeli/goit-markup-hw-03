@@ -205,7 +205,7 @@ body {
   align-items: flex-start;
 }
 
-.h3-main-section-two {
+.h-main-section-two {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -260,7 +260,7 @@ body {
   padding: 32px 0;
 }
 
-.h3-main-section-tree {
+.h-main-section-tree {
   text-align: center;
   margin-bottom: 8px;
 }
@@ -291,7 +291,7 @@ body {
   padding: 120px 0;
 }
 
-.h2-our-portfolio {
+.h-our-portfolio {
   font-weight: 700px;
   font-size: 36px;
   line-height: 2.5em;
@@ -337,7 +337,7 @@ body {
   margin-bottom: 8px;
 }
 
-.h3-our-portfolio {
+.h-our-portfolio {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5em;
