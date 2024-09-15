@@ -307,14 +307,12 @@ body {
 /* OUR PORTFOLIO */
 .our-portfolio {
   padding: 120px 0;
-
 }
 .container-our-portfolio {
   width: 1158px;
   padding: 0 15px;
   display: flex;
   flex-direction: column;
-
 }
 
 .h-our-portfolio {
