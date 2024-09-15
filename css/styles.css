@@ -246,8 +246,19 @@ body {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
+
+
+.mark-product-designer{
+  padding: 32px 0;
+
+}
 .h3-main-section-tree {
 
+  text-align: center;
+  margin-bottom: 8px;
+}
+.p-main-section-tree{
+  text-align: center,
 
 }
 
@@ -260,6 +271,7 @@ body {
 .main-section-tree p {
   font-style: bold;
   color: #434455;
+  text-align: center;
 }
 
 .main-section-tree img:hover {
