@@ -23,12 +23,22 @@ body {
   align-items: center;
 }
 
+.header-nav-menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+  display: flex;
+  align-items: center;
+}
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   line-height: 1.3em;
   letter-spacing: 3%;
   cursor: pointer;
+  margin-right: 76px;
 }
 
 .web {
@@ -44,15 +54,6 @@ body {
   font-size: 18px;
   line-height: 1.3em;
   letter-spacing: 3%;
-}
-
-.header-nav-menu {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5em;
-  letter-spacing: 2%;
-  display: flex;
-  align-items: center;
 }
 
 .header-nav-ul {
@@ -213,6 +214,7 @@ body {
   box-sizing: border-box;
   text-align: center;
   padding: 120px 0;
+  display: flex;
 }
 
 .main-section-ourteam {
