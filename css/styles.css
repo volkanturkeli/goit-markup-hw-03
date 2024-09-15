@@ -232,17 +232,23 @@ body {
   font-style: bold;
   margin-bottom: 72px;
 }
-.main-section-tree-ul {
+.ul-main-section-tree {
   display: flex;
   gap: 24px;
 }
 
-.main-section-tree li {
+.li-main-section-tree {
   background-color: #ffffff;
   list-style-type: none;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.h3-main-section-tree {
+
+
 }
 
 .main-section-tree img {
