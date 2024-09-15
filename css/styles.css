@@ -178,7 +178,7 @@ body {
 .main-section-two ul {
   display: flex;
   list-style-type: none;
-  gap: 8px;
+  gap: 24px;
 }
 
 .main-section-two li {
