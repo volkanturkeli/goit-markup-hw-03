@@ -67,8 +67,6 @@ body {
   align-items: center;
   text-decoration: none;
   font-style: normal;
-
-
 }
 
 .header-nav-menu a {
@@ -370,7 +368,11 @@ body {
   padding: 100px 0;
 }
 
-.footer-logo {
+.page-footer a {
+  display: inline-block;
+}
+
+.footer-logo-a {
   display: inline-block;
   margin-bottom: 16px;
   width: 115px;
