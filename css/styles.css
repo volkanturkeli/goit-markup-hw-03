@@ -365,9 +365,6 @@ body {
   padding: 100px 0;
 }
 
-.page-footer a {
-  display: inline-block;
-}
 
 .footer-logo-a {
   display: inline-block;
@@ -379,6 +376,15 @@ body {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3em;
+  letter-spacing: 3%;
+}
+
+
+.footer-logo-web {
+  color: #4d5ae5;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.3em;
