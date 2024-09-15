@@ -8,8 +8,6 @@ body {
 
 /* HEADER */
 
-
-
 .header {
   background-color: #e7e9fc;
   color: #2e2f42;
@@ -26,7 +24,6 @@ body {
   padding: 0 15px;
   display: flex;
   align-items: center;
-  
 }
 
 .header-nav-menu {
@@ -102,7 +99,6 @@ body {
 .header-adress-ul {
   text-decoration: none;
   display: flex;
-
   gap: 40px;
 }
 
@@ -110,7 +106,6 @@ body {
   text-decoration: none;
   list-style-type: none;
   display: flex;
-
   gap: 40px;
 }
 
@@ -143,9 +138,7 @@ body {
   text-align: center;
   align-items: center;
   flex-direction: column;
-
 }
-
 
 .h-of-main-section-one {
   max-width: 496px;
@@ -195,7 +188,6 @@ body {
   display: flex;
   align-items: center;
 }
-
 
 .visually-hidden {
   position: absolute;
@@ -253,13 +245,12 @@ body {
   padding: 120px 0;
   display: flex;
 }
-.container-section-tree5 {
+.container-section-tree {
+  flex-direction: column;
   width: 1158px;
-  margin: 0 auto;
   padding: 0 15px;
   display: flex;
 }
-
 
 .main-section-ourteam {
   color: #2e2f42;
@@ -319,13 +310,10 @@ body {
 }
 .container-our-portfolio {
   width: 1158px;
-  margin: 0 auto;
   padding: 0 15px;
   display: flex;
   flex-direction: column;
-
 }
-
 
 .h-our-portfolio {
   font-weight: 700;
@@ -397,7 +385,6 @@ body {
   padding: 0 15px;
   display: flex;
 }
-
 
 .footer-logo-a {
   display: inline-block;
