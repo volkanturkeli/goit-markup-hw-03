@@ -307,12 +307,14 @@ body {
 /* OUR PORTFOLIO */
 .our-portfolio {
   padding: 120px 0;
+
 }
 .container-our-portfolio {
   width: 1158px;
   padding: 0 15px;
   display: flex;
   flex-direction: column;
+
 }
 
 .h-our-portfolio {
@@ -328,7 +330,6 @@ body {
 .ul-our-portfolio {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
   row-gap: 48px;
   list-style: none;
   justify-content: space-between;
@@ -352,21 +353,17 @@ body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .h-our-portfolio-app {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5em;
-  letter-spacing: 2%;
 }
 
 .our-portfolio p {
   font-weight: 400px;
   font-size: 16px;
   line-height: 1.5em;
-  letter-spacing: 2%;
 }
 /* OUR PORTFOLIO END */
 
