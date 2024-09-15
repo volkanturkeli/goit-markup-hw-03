@@ -242,6 +242,7 @@ body {
   line-height: 2.5em;
   letter-spacing: 2%;
   font-style: bold;
+  margin-bottom: 72px;
 }
 .ul-main-section-tree {
   display: flex;
