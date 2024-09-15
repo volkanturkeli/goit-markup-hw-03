@@ -18,22 +18,17 @@ body {
 .header {
   background-color: #e7e9fc;
   color: #2e2f42;
-  width: 1440px;
   height: 72px;
   border: 1px solid #e7e9fc;
   align-items: center;
 }
 
 .header-logo {
-  width: 115px;
-  height: 24px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   line-height: 1.3em;
   letter-spacing: 3%;
   cursor: pointer;
-  text-decoration: none;
-  margin-right: 76px;
 }
 
 .web {
@@ -60,18 +55,20 @@ body {
   align-items: center;
 }
 
-.header-nav-menu ul {
+.header-nav-ul {
   display: flex;
   gap: 40px;
 }
 
-.header li {
+.header-nav-ul-li {
   list-style-type: none;
   display: inline;
-}
-
-.header-nav-ul-li {
   padding: 24px 0;
+  align-items: center;
+  text-decoration: none;
+  font-style: normal;
+
+
 }
 
 .header-nav-menu a {
@@ -85,20 +82,21 @@ body {
 
 .header-adress {
   font-family: "Roboto", sans-serif;
+  list-style-type: none;
+  font-style: normal;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 2%;
   cursor: pointer;
-  text-align: right;
   display: flex;
   gap: 40px;
 }
 
-.header-adress a {
+.header-nav-ul a {
   text-decoration: none;
   color: #434455;
-  font-style: normal;
 }
 
 .header-adress a:hover {
@@ -380,7 +378,6 @@ body {
   margin-left: 150px;
   cursor: pointer;
   text-decoration: none;
-  text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   color: #ffffff;
   font-weight: 700;
@@ -398,7 +395,7 @@ body {
 }
 
 .footer-p {
-  width: 264px;
+  max-width: 264px;
   height: 72px;
   margin-left: -115px;
   color: #f4f4fd;
