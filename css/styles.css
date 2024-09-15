@@ -138,7 +138,6 @@ body {
 
 .container-section-one {
   width: 1158px;
-  margin: 0 auto;
   padding: 0 15px;
   display: flex;
   text-align: center;
@@ -163,7 +162,6 @@ body {
   display: block;
   min-width: 169px;
   height: 56px;
-  margin: 0 auto;
   background-color: #4d5ae5;
   color: #ffffff;
   font-weight: 500;
@@ -172,7 +170,7 @@ body {
   cursor: pointer;
   border: none;
   border-radius: 4px;
-  padding: 16px, 32px, 16px, 32px;
+  padding: 16px 32px;
 }
 
 .main-section-one button:hover {
