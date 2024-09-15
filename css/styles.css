@@ -130,12 +130,12 @@ body {
   height: 600px;
   display: inline-block;
   padding: 188px 0;
+
 }
 
 .h1-of-main-section-one {
   max-width: 496px;
   height: 120px;
-  margin-left: 472px;
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
@@ -144,7 +144,8 @@ body {
   text-align: center;
 }
 
-.main-section-one-button {
+.button-of-main-section-one {
+  display: block;
   min-width: 169px;
   height: 56px;
   margin: 0 auto;
@@ -157,7 +158,6 @@ body {
   border: none;
   border-radius: 4px;
   padding: 16px, 32px, 16px, 32px;
-  display: block;
 }
 
 .main-section-one button:hover {
