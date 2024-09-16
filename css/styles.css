@@ -342,6 +342,7 @@ body {
   list-style: none;
   justify-content: space-between;
   align-items: center;
+  column-gap: 24px;
 }
 
 .li-our-portfolio {
@@ -350,6 +351,7 @@ body {
   text-align: left;
   align-items: center;
   margin: 0 auto;
+  width: calc((100% - 72px) / 4);
 }
 
 .our-portfolio img {
