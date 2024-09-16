@@ -201,6 +201,7 @@ body {
 }
 
 .section-two-ul {
+  width: calc((100% - 72px) / 4);
   display: flex;
   list-style-type: none;
   gap: 24px;
@@ -335,16 +336,16 @@ body {
   flex-wrap: wrap;
 }
 .our-portfolio-list {
+  width: calc((100% - 72px)/4);
   width: 360px;
   height: 420px;
-  border: 1px solid #e7e9fc;
 }
 
 .our-portfolio-div {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
-  cursor: pointer;
-  margin: 0;
 }
 
 .our-portfolio img {
@@ -387,9 +388,9 @@ body {
   display: flex;
 }
 
-.footer-logo-a {
-  display: inline-block;
+.footer-logo {
   margin-bottom: 16px;
+  display: inline-block;
   margin: 0 0 10px 156px;
   width: 115px;
   height: 24px;
