@@ -2,7 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   width: 1440px;
-  height: 2060px;
   margin: 0 auto;
 }
 
@@ -26,7 +25,7 @@ body {
   align-items: center;
 }
 
-.header-nav-menu {
+.header-nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
@@ -59,25 +58,24 @@ body {
   letter-spacing: 3%;
 }
 
-.header-nav-ul {
+.nav-list {
   display: flex;
   gap: 40px;
+  list-style-type: none;
+  
+
 }
 
 .list-item {
-  list-style-type: none;
   padding: 24px 0;
-  align-items: center;
-  text-decoration: none;
-  font-style: normal;
 }
 
-.header-nav-menu a {
+.header-nav a {
   text-decoration: none;
   color: #2e2f42;
 }
 
-.header-nav-menu a:hover {
+.header-nav a:hover {
   color: #404bbf;
 }
 
