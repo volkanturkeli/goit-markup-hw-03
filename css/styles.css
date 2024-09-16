@@ -93,16 +93,13 @@ body {
   cursor: pointer;
   display: flex;
   gap: 40px;
-  margin-left:220px;
-
+  margin-left: 220px;
 }
 
 .header-adress-ul {
   text-decoration: none;
   display: flex;
   gap: 40px;
-  
-
 }
 
 .header-adress-ul-li {
@@ -110,7 +107,6 @@ body {
   list-style-type: none;
   display: flex;
   gap: 40px;
-
 }
 
 .header-adress-a {
@@ -118,7 +114,6 @@ body {
   color: #434455;
   gap: 40px;
   display: inline-flex;
-
 }
 
 .header-adress-a:hover {
@@ -253,7 +248,7 @@ body {
 }
 .container-section-tree {
   width: 1440px;
-  height: 732px;
+  height: 532px;
   flex-direction: column;
   padding: 0 15px;
   display: flex;
@@ -278,6 +273,7 @@ body {
   list-style-type: none;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  align-items: center;
 }
 
 .personal-list {
@@ -297,6 +293,7 @@ body {
   width: 264px;
   height: 260px;
   display: block;
+  margin: 0 auto;
 }
 
 .main-section-tree img:hover {
@@ -319,7 +316,6 @@ body {
 }
 .container-our-portfolio {
   margin: 0 auto;
-  width: 1128px;
   height: 1000px;
   padding: 0 15px;
   display: flex;
@@ -343,7 +339,6 @@ body {
   row-gap: 48px;
   list-style: none;
   justify-content: space-between;
-  width: 1128px;
   align-items: center;
 }
 
@@ -417,7 +412,6 @@ body {
   font-size: 18px;
   line-height: 1.3em;
   letter-spacing: 3%;
-
 }
 
 .footer-logo-studio {
@@ -426,11 +420,9 @@ body {
   line-height: 1.3em;
   letter-spacing: 3%;
   color: #f4f4fd;
-
 }
 
 .footer-p {
-  
   max-width: 264px;
   height: 72px;
   margin-left: -115px;
