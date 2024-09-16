@@ -260,7 +260,7 @@ body {
   font-size: 36px;
   line-height: 2.5em;
   letter-spacing: 2%;
-  font-style: bold;
+  font-weight: bold;
   margin-bottom: 72px;
 }
 .section-tree-ul {
@@ -276,13 +276,10 @@ body {
   align-items: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-
-
 }
 
 .personal-list {
   padding: 32px 0;
-
 }
 
 .section-tree-h {
@@ -291,7 +288,7 @@ body {
 }
 .section-tree-p {
   text-align: center;
-  font-style: bold;
+  font-weight: bold;
   color: #434455;
   text-align: center;
 }
@@ -327,6 +324,7 @@ body {
 }
 
 .our-portfolio-ul {
+  width: 1400px;
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
@@ -336,13 +334,17 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
 }
+.our-portfolio-list {
+  width: 360px;
+  height: 420px;
+  border: 1px solid #e7e9fc;
+}
 
 .our-portfolio-div {
-  border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
   cursor: pointer;
-
+  margin: 0;
 }
 
 .our-portfolio img {
@@ -388,6 +390,7 @@ body {
 .footer-logo-a {
   display: inline-block;
   margin-bottom: 16px;
+  margin: 0 0 10px 156px;
   width: 115px;
   height: 24px;
   cursor: pointer;
@@ -397,7 +400,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.3em;
-  letter-spacing: 3%;
+  letter-spacing: 2%;
 }
 
 .footer-logo-web {
@@ -416,6 +419,8 @@ body {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 2%;
+  margin: 0 0 10px 156px;
+
 }
 
 /* FOOTER END */
