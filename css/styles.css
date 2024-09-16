@@ -64,7 +64,7 @@ body {
   gap: 40px;
 }
 
-.li-of-header-nav {
+.list-item {
   list-style-type: none;
   padding: 24px 0;
   align-items: center;
