@@ -132,7 +132,7 @@ body {
   padding: 188px 0;
 }
 
-.container-section-one {
+.main-section-one .container {
   width: 1440px;
   padding: 0 15px;
   display: flex;
