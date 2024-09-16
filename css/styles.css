@@ -62,8 +62,6 @@ body {
   display: flex;
   gap: 40px;
   list-style-type: none;
-  
-
 }
 
 .list-item {
@@ -305,7 +303,6 @@ body {
   opacity: 0.8;
 }
 
-
 /* MAIN SECTION TREE END */
 
 /* OUR PORTFOLIO */
@@ -313,8 +310,6 @@ body {
   padding: 120px 0;
 }
 .container-our-portfolio {
- 
-
 }
 
 .our-portfolio-h {
@@ -335,13 +330,10 @@ body {
   justify-content: space-between;
   column-gap: 24px;
   flex-direction: row;
-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .our-portfolio-div {
-  width: 360px;
-  height: 420px;
-  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
@@ -355,16 +347,11 @@ flex-wrap: wrap;
 }
 
 .our-portfolio-app {
-   color: #2e2f42;
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5em;
   letter-spacing: 2%;
-}
-
-.our-portfolio-app {
-  font-weight: 500;
-  font-size: 20px;
 }
 
 .our-portfolio-paragraph {
@@ -373,7 +360,6 @@ flex-wrap: wrap;
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 2%;
-
 }
 /* OUR PORTFOLIO END */
 
