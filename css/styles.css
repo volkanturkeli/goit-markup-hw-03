@@ -178,14 +178,6 @@ body {
   flex-wrap: wrap;
   padding: 120px 0;
 }
-.container-section-two {
-  width: 1158px;
-  height: 104px;
-  margin: 0 auto;
-  padding: 0 15px;
-  display: flex;
-  align-items: center;
-}
 
 .visually-hidden {
   position: absolute;
@@ -201,7 +193,6 @@ body {
 }
 
 .section-two-ul {
-  width: calc((100% - 72px) / 4);
   display: flex;
   list-style-type: none;
   gap: 24px;
@@ -209,7 +200,6 @@ body {
 
 .section-two-list {
   width: calc((100% - 72px) / 4);
-  height: 104px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -246,13 +236,6 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-}
-.container-section-tree {
-  width: 1440px;
-  height: 532px;
-  flex-direction: column;
-  padding: 0 15px;
-  display: flex;
 }
 
 .section-ourteam {
@@ -295,8 +278,6 @@ body {
 }
 
 .section-tree img {
-  width: 264px;
-  height: 260px;
   display: block;
   margin: 0 auto;
 }
@@ -310,8 +291,8 @@ body {
 /* OUR PORTFOLIO */
 .our-portfolio {
   padding: 120px 0;
-}
-.container-our-portfolio {
+  width: 1158px;
+
 }
 
 .our-portfolio-h {
@@ -325,33 +306,26 @@ body {
 }
 
 .our-portfolio-ul {
-  width: 1400px;
   display: flex;
   flex-wrap: wrap;
-  row-gap: 48px;
   list-style: none;
-  justify-content: space-between;
-  column-gap: 24px;
-  flex-direction: row;
-  flex-wrap: wrap;
+  gap: 19px;
+
+
 }
 
 .our-portfolio-list {
-  width: calc((100% - 72px) / 4);
-  width: 360px;
-  height: 420px;
+  justify-content: space-between;
+
+  
 }
 
 .our-portfolio-div {
-  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .our-portfolio img {
-  width: 360px;
-  height: 300px;
   cursor: pointer;
   display: block;
 }
@@ -378,8 +352,6 @@ body {
 .page-footer {
   background-color: #2e2f42;
   display: flex;
-  width: 1440px;
-  height: 312px;
   padding: 100px 0;
 }
 .container-footer {
@@ -393,8 +365,6 @@ body {
   display: inline-block;
   margin-bottom: 16px;
   margin-left: 156px;
-  width: 115px;
-  height: 24px;
   cursor: pointer;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -415,7 +385,6 @@ body {
 
 .footer-paragraph {
   max-width: 264px;
-  height: 72px;
   color: #f4f4fd;
   font-weight: 400;
   font-size: 16px;
