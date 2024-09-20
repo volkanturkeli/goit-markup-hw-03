@@ -43,6 +43,7 @@ body {
   letter-spacing: 3%;
   cursor: pointer;
   margin-right: 76px;
+  text-decoration: none;
 }
 
 .header-logo-web {
@@ -180,6 +181,8 @@ body {
   flex-wrap: wrap;
   padding: 120px 0;
 }
+.container {
+}
 
 .visually-hidden {
   position: absolute;
@@ -201,7 +204,7 @@ body {
 }
 
 .section-two-list-item {
-  width calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   display: flex;
   flex-direction: column;
   justify-content: center;
