@@ -66,6 +66,9 @@ body {
   gap: 40px;
   list-style-type: none;
 }
+.list-item {
+  padding: 24px 0;
+}
 
 .header-nav a {
   text-decoration: none;
