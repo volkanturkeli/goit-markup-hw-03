@@ -334,6 +334,12 @@ body {
   cursor: pointer;
 }
 
+.section-four div{
+  margin-bottom: 8px;
+
+
+}
+
 .section-four-list-div {
   border: 1px solid #e7e9fc;
   border-top: none;
