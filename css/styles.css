@@ -123,14 +123,14 @@ body {
 
 /* MAIN SECTION ONE */
 
-.main-section-one {
+.section-one {
   background-color: #2e2f42;
   height: 600px;
   display: inline-block;
   padding: 188px 0;
 }
 
-.main-section-one .container {
+.section-one .container {
   width: 1440px;
   padding: 0 15px;
   display: flex;
@@ -139,7 +139,7 @@ body {
   flex-direction: column;
 }
 
-.h-of-main-section-one {
+.h-section-one {
   max-width: 496px;
   height: 120px;
   color: #ffffff;
@@ -151,7 +151,7 @@ body {
   margin-bottom: 30px;
 }
 
-.button-of-main-section-one {
+.button-section-one {
   display: block;
   min-width: 169px;
   height: 56px;
@@ -166,7 +166,7 @@ body {
   padding: 16px 32px;
 }
 
-.main-section-one button:hover {
+.button-section-one:hover {
   background-color: #404bbf;
 }
 
