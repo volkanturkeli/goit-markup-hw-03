@@ -82,8 +82,9 @@ body {
   list-style-type: none;
 }
 .list-item {
+
   margin: 0;
-  padding: 0;
+padding: 24px 0;
 }
 
 .nav-link {
@@ -140,7 +141,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 120px 0;
+  padding: 188px 0;
   text-align: center;
 }
 
@@ -166,6 +167,7 @@ body {
 
 .button-section-one {
   display: block;
+  min-width: 169px;
   height: 56px;
   background-color: #4d5ae5;
   color: #ffffff;
@@ -267,6 +269,7 @@ body {
 
 .section-tree-list {
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   margin-bottom: 8px;
@@ -323,6 +326,15 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px
+
+
+}
+
+.section-four-list-item{
+
+  width: calc((100% - 72px) / 4);
+
 }
 
 .section-four-list-item div {
@@ -372,10 +384,6 @@ body {
   display: flex;
   padding: 100px 0;
   align-items: center;
-}
-
-.page-footer a {
-  display: inline-block;
 }
 
 .footer-link {
