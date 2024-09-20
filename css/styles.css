@@ -371,19 +371,13 @@ body {
   display: flex;
   padding: 100px 0;
 }
-.container-footer {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-  display: flex;
-}
 
 .page-footer a{
   display: inline-block;
 
 }
 
-.footer-logo {
+.footer-link {
   display: inline-block;
   margin-bottom: 16px;
   margin-left: 156px;
