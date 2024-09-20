@@ -1,51 +1,89 @@
-/* GLOBAL RESET - B1 */
-h1, h2, h3, h4, h5, h6, p, ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-/* B1: h1-h6, p ve ul etiketlerinin margin ve padding'ini sıfırlayarak global reset uygulanmıştır. */
-
-/* BODY */
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   margin: 0 auto;
   max-width: 1440px;
-  padding: 0; /* B4: padding kullanılmadan margin sıfırlanmalıdır. */
+  padding: 0;
 }
 
 /* HEADER */
+
 .page-header {
   background-color: #e7e9fc;
   color: #2e2f42;
-  border-bottom: 1px solid #e7e9fc; /* B13: header için alt kenarlık ekledim */
+  height: 72px;
+  border: 1px solid #e7e9fc;
   align-items: center;
   display: flex;
-  padding: 24px 0; /* Header padding B4 gereksinimine uygun olarak düzenlendi. */
+  padding: 24px 0;
 }
 
-/* CONTAINER */
 .container {
-  max-width: 1158px; /* B8: Container genişliği 1158px olarak ayarlandı */
-  margin: 0 auto; /* B6: İçeriği genişliğe göre ortalamak için margin-auto kullanıldı */
-  padding: 0 15px; /* B5: padding içerideki boşluklar için uygulandı */
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
   display: flex;
   align-items: center;
 }
 
-/* NAV LIST */
+.header-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style-type: none;
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  line-height: 1.3em;
+  letter-spacing: 3%;
+  cursor: pointer;
+  margin-right: 76px;
+  text-decoration: none;
+}
+
+.header-logo-web {
+  color: #4d5ae5;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3em;
+  letter-spacing: 3%;
+}
+.header-logo-studio {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3em;
+  letter-spacing: 3%;
+}
+
 .nav-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0; /* B4: padding üst-alt çerçeve arasındaki boşluk olarak ayarlandı */
-  list-style-type: none; /* Global reset ile uyumlu */
+  padding: 24px 0;
+  list-style-type: none;
 }
-
 .list-item {
-  margin: 0; /* B2: dışarıya boşluk taşırmadığı için margin sıfırlandı */
-  padding: 0; /* Global reset */
+  margin: 0;
+  padding: 0;
 }
 
 .nav-link {
@@ -53,14 +91,26 @@ body {
   color: #2e2f42;
 }
 
+.nav-link:hover {
+  color: #404bbf;
+}
+
 /* HEADER CONTACT */
+
 .header-contact {
+  cursor: pointer;
   display: flex;
   gap: 40px;
   margin-left: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 2%;
 }
 
 .header-contact-list {
+  text-decoration: none;
   display: flex;
   gap: 40px;
 }
@@ -71,23 +121,36 @@ body {
 }
 
 .contact-link {
-  display: inline-block; /* Footer'daki a etiketine benzer şekilde inline-block ayarlandı. */
   text-decoration: none;
   color: #434455;
+  display: inline-block;
 }
 
 .contact-link:hover {
   color: #404bbf;
 }
 
-/* SECTION ONE */
+/* HEADER END */
+
+/* MAIN SECTION ONE */
+
 .section-one {
   background-color: #2e2f42;
+  height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 120px 0; /* B15: section'ların üst ve alt padding değeri 120px olarak belirlendi */
+  padding: 120px 0;
   text-align: center;
+}
+
+.section-one .container {
+  width: 1440px;
+  padding: 0 15px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .h-section-one {
@@ -95,24 +158,53 @@ body {
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.3;
-  margin-bottom: 30px; /* B3: İki bitişik eleman arasında margin uygulandı */
+  line-height: 1.3em;
+  letter-spacing: 2%;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .button-section-one {
   display: block;
+  height: 56px;
   background-color: #4d5ae5;
   color: #ffffff;
-  padding: 16px 32px; /* B4: padding içerideki boşluklar için uygulandı */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+  cursor: pointer;
+  border: none;
   border-radius: 4px;
+  padding: 16px 32px;
 }
 
-/* SECTION TWO */
+.button-section-one:hover {
+  background-color: #404bbf;
+}
+
+/* SECTION ONE END */
+
+/* SECTION TWO  */
+
 .section-two {
   display: flex;
   flex-wrap: wrap;
+
   justify-content: center;
-  padding: 120px 0; /* B15: section'ların üst ve alt padding değeri ayarlandı */
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .section-two-list {
@@ -122,30 +214,109 @@ body {
 }
 
 .section-two-list-item {
-  flex-basis: calc((100% - 3 * 24px) / 4); /* B10: Flexbox kullanımı gereksinimi */
+  flex-basis: calc(
+    (100% - 3 * 24px) / 4
+  ); /* B10: Flexbox kullanımı gereksinimi */
 }
 
-/* SECTION THREE */
+.section-two-h {
+  display: flex;
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+  margin-bottom: 8px;
+}
+
+.section-two-paragraph {
+  width: 264px;
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+}
+
+/*  SECTION TWO END */
+
+/*  SECTION TREE */
+
 .section-tree {
   background-color: #f4f4fd;
-  padding: 120px 0; /* B15: section'ların üst ve alt padding değeri ayarlandı */
+  padding: 120px 0;
   text-align: center;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
+}
+
+.section-ourteam {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2.5em;
+  letter-spacing: 2%;
+  font-weight: bold;
+  margin-bottom: 72px;
+}
+.section-tree-ul {
+  display: flex;
+  gap: 24px;
 }
 
 .section-tree-list {
-  width: calc((100% - 72px) / 4); /* B10: Flex-basis kullanımı ve doğru boşluk hesaplaması */
-  margin-bottom: 8px; /* B4: Eleman arası boşluk padding değil margin ile verildi */
-  padding: 32px 0; /* B4: padding içerideki boşluklar için uygulandı */
+  width: calc((100% - 72px) / 4);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-bottom: 8px;
+  padding: 32px 0;
 }
 
+.personal-list {
+  padding: 32px 0;
+}
+
+.section-tree-h {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.section-tree-p {
+  text-align: center;
+  font-weight: bold;
+  color: #434455;
+  text-align: center;
+}
+
+.section-tree img {
+  display: block;
+
+  margin: 0 auto;
+}
+
+.section-tree img:hover {
+  opacity: 0.8;
+}
+
+/* SECTION TREE END */
+
 /* SECTION FOUR */
+
 .section-four {
   display: flex;
   flex-wrap: wrap;
-  padding: 120px 0; /* B15: section'ların üst ve alt padding değeri ayarlandı */
+  padding: 120px 0;
+  flex-direction: column;
+}
+
+.section-four-h {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2.5em;
+  text-align: center;
+  letter-spacing: 2%;
+  color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .section-four-list {
@@ -160,17 +331,83 @@ body {
   margin-bottom: 8px;
 }
 
+
+.section-four img {
+  display: block;
+  cursor: pointer;
+}
+
+.section-four div {
+  margin-bottom: 8px;
+}
+
+.section-four-list-div {
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  padding: 32px 16px;
+  margin-bottom: 8px;
+}
+
+.section-four-app {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+}
+
+.our-portfolio-paragraph {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+}
+/* SECTION FOUR END */
+
 /* FOOTER */
+
 .page-footer {
   background-color: #2e2f42;
   display: flex;
-  align-items: center;
   padding: 100px 0;
+  align-items: center;
+}
+
+.page-footer a {
+  display: inline-block;
 }
 
 .footer-link {
   display: inline-block;
-  margin-left: auto;
+  margin-bottom: 16px;
+  margin-left: 0 auto;
+  cursor: pointer;
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
   color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3em;
+  letter-spacing: 2%;
 }
+
+.footer-logo-web {
+  color: #4d5ae5;
+}
+
+.footer-logo-studio {
+  color: #f4f4fd;
+}
+
+.footer-paragraph {
+  max-width: 264px;
+  color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+  margin: 0 0 10px 156px;
+}
+
+/* FOOTER END */
