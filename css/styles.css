@@ -58,7 +58,7 @@ body {
   letter-spacing: 3%;
 }
 
-.nav-list {
+.nav-list-header {
   display: flex;
   gap: 40px;
   list-style-type: none;
