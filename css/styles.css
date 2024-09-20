@@ -7,7 +7,7 @@ body {
 
 /* HEADER */
 
-.header {
+.page-header {
   background-color: #e7e9fc;
   color: #2e2f42;
   height: 72px;
@@ -17,7 +17,7 @@ body {
   display: flex;
 }
 
-.container-header {
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -32,6 +32,8 @@ body {
   letter-spacing: 2%;
   display: flex;
   align-items: center;
+  gap: 40px;
+  list-style-type: none;
 }
 
 .header-logo {
@@ -58,14 +60,11 @@ body {
   letter-spacing: 3%;
 }
 
-.nav-list-header {
+.nav-list {
+  padding: 24px 0;
   display: flex;
   gap: 40px;
   list-style-type: none;
-}
-
-.list-item {
-  padding: 24px 0;
 }
 
 .header-nav a {
@@ -73,13 +72,13 @@ body {
   color: #2e2f42;
 }
 
-.header-nav a:hover {
+.nav-link:hover {
   color: #404bbf;
 }
 
 /* HEADER ADRESS */
 
-.header-adress {
+.header-contact {
   font-family: "Roboto", sans-serif;
   list-style-type: none;
   font-style: normal;
@@ -93,27 +92,27 @@ body {
   margin-left: 220px;
 }
 
-.header-adress-ul {
+.header-contact-list {
   text-decoration: none;
   display: flex;
   gap: 40px;
 }
 
-.header-adress-ul-li {
+.contact-list {
   text-decoration: none;
   list-style-type: none;
   display: flex;
   gap: 40px;
 }
 
-.header-adress-a {
+.contact-link {
   text-decoration: none;
   color: #434455;
   gap: 40px;
   display: inline-flex;
 }
 
-.header-adress-a:hover {
+.contact-link:hover {
   color: #404bbf;
 }
 
@@ -292,7 +291,6 @@ body {
 .our-portfolio {
   padding: 120px 0;
   width: 1158px;
-
 }
 
 .our-portfolio-h {
@@ -310,14 +308,10 @@ body {
   flex-wrap: wrap;
   list-style: none;
   gap: 19px;
-
-
 }
 
 .our-portfolio-list {
   justify-content: space-between;
-
-  
 }
 
 .our-portfolio-div {
