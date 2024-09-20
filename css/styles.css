@@ -378,6 +378,11 @@ body {
   display: flex;
 }
 
+.page-footer a{
+  display: inline-block;
+
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
