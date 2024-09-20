@@ -26,6 +26,7 @@ body {
   color: #2e2f42;
   height: 72px;
   border: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
   align-items: center;
   display: flex;
   padding: 24px 0;
@@ -82,9 +83,8 @@ body {
   list-style-type: none;
 }
 .list-item {
-
   margin: 0;
-padding: 24px 0;
+  padding: 24px 0;
 }
 
 .nav-link {
@@ -117,6 +117,11 @@ padding: 24px 0;
 }
 
 .contact-list {
+  display: flex;
+  gap: 40px;
+}
+
+address ul {
   display: flex;
   gap: 40px;
 }
@@ -191,7 +196,6 @@ padding: 24px 0;
 .section-two {
   display: flex;
   flex-wrap: wrap;
-
   justify-content: center;
   padding: 120px 0;
 }
@@ -216,9 +220,7 @@ padding: 24px 0;
 }
 
 .section-two-list-item {
-  flex-basis: calc(
-    (100% - 3 * 24px) / 4
-  ); /* B10: Flexbox kullanımı gereksinimi */
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .section-two-h {
@@ -293,7 +295,6 @@ padding: 24px 0;
 
 .section-tree img {
   display: block;
-
   margin: 0 auto;
 }
 
@@ -309,6 +310,10 @@ padding: 24px 0;
   display: flex;
   flex-wrap: wrap;
   padding: 120px 0;
+}
+
+.section-four .container {
+  display: flex;
   flex-direction: column;
 }
 
@@ -325,24 +330,23 @@ padding: 24px 0;
 .section-four-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  row-gap: 48px
-
-
+  column-gap: 24px;
+  row-gap: 48px;
+  
 }
 
-.section-four-list-item{
-
+.section-four-list-item {
   width: calc((100% - 72px) / 4);
+  margin-bottom: 8px;
+  
 
 }
 
 .section-four-list-item div {
-  border-bottom: 1px solid #e7e9fc; /* B16: kartların yalnızca alt kenarlığı olmalı */
+  border-bottom: 1px solid #e7e9fc;
   padding: 32px 16px;
   margin-bottom: 8px;
 }
-
 
 .section-four img {
   display: block;
@@ -394,7 +398,6 @@ padding: 24px 0;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   color: #ffffff;
-  font-weight: 700;
   font-size: 18px;
   line-height: 1.3em;
   letter-spacing: 2%;
