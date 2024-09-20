@@ -319,6 +319,8 @@ body {
   flex-wrap: wrap;
   list-style: none;
   gap: 19px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .section-four-list-item {
@@ -333,6 +335,8 @@ body {
 .section-four-list-div {
   border: 1px solid #e7e9fc;
   border-top: none;
+  padding: 32px 16px;
+  margin-bottom: 8px;
 }
 
 .section-four-app {
