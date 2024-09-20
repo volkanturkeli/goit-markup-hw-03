@@ -208,6 +208,9 @@ body {
 .section-two-list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
+.section-two-list section-two-list-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
 
 .section-two-h {
   display: flex;
