@@ -5,6 +5,7 @@ body {
   margin: 0 auto;
 }
 
+
 /* HEADER */
 
 .page-header {
@@ -328,6 +329,7 @@ body {
 }
 
 .our-portfolio img {
+  display: block;
   cursor: pointer;
   display: block;
 }
