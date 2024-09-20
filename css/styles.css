@@ -70,7 +70,7 @@ body {
   padding: 24px 0;
 }
 
-.header-nav a {
+.nav-link {
   text-decoration: none;
   color: #2e2f42;
 }
