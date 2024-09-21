@@ -389,6 +389,7 @@ section .section-four-list-item {
   align-items: center;
   margin-bottom: 16px
 
+
 }
 
 .footer-link {
@@ -401,6 +402,8 @@ section .section-four-list-item {
   font-size: 18px;
   line-height: 1.3em;
   letter-spacing: 2%;
+  margin: 0 0 10px 156px;
+
 }
 
 .footer-logo-web {
@@ -418,13 +421,16 @@ section .section-four-list-item {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 2%;
+  margin: 0 0 10px 156px;
+
   
 }
 
 
 .page-footer{
   display: inline-block;
-  margin-bottom: 16px
+  margin-bottom: 16px;
+
 
 }
 
