@@ -386,6 +386,7 @@ section .section-four-list-item {
 /* FOOTER */
 
 .page-footer {
+  
   width: 1440px;
   height: 312px;
   background-color: #2e2f42;
@@ -404,14 +405,17 @@ section .section-four-list-item {
   color: #ffffff;
   font-size: 18px;
   line-height: 1.3em;
-  letter-spacing: 2%;
+  letter-spacing: 3%;
+  font-weight: bold;
 }
 
 .footer-logo-web {
+
   color: #4d5ae5;
 }
 
 .footer-logo-studio {
+
   color: #f4f4fd;
 }
 
