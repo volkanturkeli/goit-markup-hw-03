@@ -31,6 +31,16 @@ body {
   display: flex;
   padding: 24px 0;
 }
+header li{
+
+  padding: 24px 0;
+}
+
+header .list-item{
+
+
+  padding: 24px 0
+}
 
 .container {
   width: 1158px;
