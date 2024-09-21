@@ -387,9 +387,7 @@ section .section-four-list-item {
   display: flex;
   padding: 100px 0;
   align-items: center;
-  margin-bottom: 16px
-
-
+  margin-bottom: 16px;
 }
 
 .footer-link {
@@ -403,7 +401,6 @@ section .section-four-list-item {
   line-height: 1.3em;
   letter-spacing: 2%;
   margin: 0 0 10px 156px;
-
 }
 
 .footer-logo-web {
@@ -422,17 +419,16 @@ section .section-four-list-item {
   line-height: 1.5em;
   letter-spacing: 2%;
   margin: 0 0 10px 156px;
-
-  
 }
 
-
-.page-footer{
+.page-footer {
   display: inline-block;
   margin-bottom: 16px;
-
-
 }
 
+footer a {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 
 /* FOOTER END */
