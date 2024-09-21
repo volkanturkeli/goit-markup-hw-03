@@ -387,16 +387,15 @@ section .section-four-list-item {
   display: flex;
   padding: 100px 0;
   align-items: center;
+  margin-bottom: 16px
+
 }
 
 .footer-link {
-  display: inline-block;
   margin-bottom: 16px;
-  margin: 0 0 10px 156px;
   cursor: pointer;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-
   text-decoration: none;
   color: #ffffff;
   font-size: 18px;
@@ -419,12 +418,15 @@ section .section-four-list-item {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 2%;
-  margin: 0 0 10px 156px;
+  
 }
 
 
-footer a {
+.page-footer{
   display: inline-block;
   margin-bottom: 16px
+
 }
+
+
 /* FOOTER END */
