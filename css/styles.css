@@ -15,14 +15,13 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   margin: 0 auto;
-  max-width: 1440px;
   padding: 0;
 }
 
 /* HEADER */
 
 .page-header {
-  background-color: #e7e9fc;
+  background-color: #ffffff;
   color: #2e2f42;
   height: 72px;
   border: 1px solid #e7e9fc;
@@ -141,6 +140,8 @@ address ul {
 /* MAIN SECTION ONE */
 
 .section-one {
+  width: 1158px;
+  margin: 0 auto;
   background-color: #2e2f42;
   height: 600px;
   display: flex;
@@ -151,7 +152,6 @@ address ul {
 }
 
 .section-one .container {
-  width: 1440px;
   padding: 0 15px;
   display: flex;
   text-align: center;
@@ -198,6 +198,7 @@ address ul {
   flex-wrap: wrap;
   justify-content: center;
   padding: 120px 0;
+  margin-top: -72px;
 }
 
 .visually-hidden {
@@ -253,6 +254,7 @@ address ul {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: -172px;
 }
 
 .section-ourteam {
@@ -261,7 +263,7 @@ address ul {
   font-size: 36px;
   line-height: 2.5em;
   letter-spacing: 2%;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 72px;
 }
 .section-tree-ul {
@@ -288,7 +290,7 @@ address ul {
 }
 .section-tree-p {
   text-align: center;
-  font-weight: bold;
+  font-weight: 400;
   color: #434455;
   text-align: center;
 }
@@ -310,6 +312,7 @@ address ul {
   display: flex;
   flex-wrap: wrap;
   padding: 120px 0;
+  margin-top: -172px;
 }
 
 .section-four .container {
@@ -381,13 +384,13 @@ section .section-four-list-item {
 /* FOOTER */
 
 .page-footer {
-  width: 1440px;
-  height: 312px;
+  width: 1158px;
+  margin-top: -72px;
+  margin: 0 auto;
   background-color: #2e2f42;
-  display: flex;
+  display: block;
   padding: 100px 0;
   align-items: center;
-  margin-bottom: 16px;
 }
 
 .footer-link {
@@ -419,16 +422,7 @@ section .section-four-list-item {
   line-height: 1.5em;
   letter-spacing: 2%;
   margin: 0 0 10px 156px;
-}
-
-.page-footer {
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
-footer a {
-  display: inline-block;
-  margin-bottom: 16px;
+  display: flex;
 }
 
 /* FOOTER END */
