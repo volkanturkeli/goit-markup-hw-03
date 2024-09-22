@@ -18,7 +18,7 @@ body {
 
 /* HEADER */
 
-.page-header {
+.the-page-header {
   background-color: #ffffff;
   color: #2e2f42;
   height: 72px;
@@ -29,7 +29,7 @@ body {
   padding: 24px 0;
 }
 
-.header {
+.header.container {
   display: flex;
   width: 1158px;
 }
@@ -40,7 +40,7 @@ body {
   padding: 0 15px;
 }
 
-.header-nav {
+.the-header-nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
@@ -51,7 +51,7 @@ body {
   list-style-type: none;
 }
 
-.header-logo {
+.the-header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   line-height: 1.3em;
@@ -76,29 +76,28 @@ body {
   letter-spacing: 3%;
 }
 
-.nav-list {
+.the-nav-list {
   display: flex;
   gap: 40px;
   padding: 24px 0;
   list-style-type: none;
 }
-.list-item {
-  margin: 0;
+.the-list-item {
   padding: 24px 0;
 }
 
-.nav-link {
+.the-nav-link {
   text-decoration: none;
   color: #2e2f42;
 }
 
-.nav-link:hover {
+.the-nav-link:hover {
   color: #404bbf;
 }
 
 /* HEADER CONTACT */
 
-.header-contact {
+.the-header-contact {
   cursor: pointer;
   display: flex;
   gap: 40px;
@@ -111,29 +110,24 @@ body {
   align-items: center;
 }
 
-.header-contact-list {
+.the-header-contact-list {
   text-decoration: none;
   display: flex;
   gap: 40px;
 }
 
-.contact-list {
+.the-contact-list {
   display: flex;
   gap: 40px;
 }
 
-address ul {
-  display: flex;
-  gap: 40px;
-}
-
-.contact-link {
+.the-contact-link {
   text-decoration: none;
   color: #434455;
   display: inline-block;
 }
 
-.contact-link:hover {
+.the-contact-link:hover {
   color: #404bbf;
 }
 
@@ -153,7 +147,7 @@ address ul {
   flex-direction: column;
 }
 
-.section-one {
+.section-one.container {
   width: 1158px;
 
   display: flex;
@@ -215,7 +209,7 @@ address ul {
   justify-content: center;
 }
 
-.section-two {
+.section-two.container {
   display: flex;
   justify-content: center;
 }
@@ -253,7 +247,7 @@ address ul {
 
 /*  SECTION TWO END */
 
-/*  SECTION TREE */
+/*  SECTION TREE START */
 
 .the-section-tree {
   padding: 120px 0;
@@ -266,7 +260,7 @@ address ul {
   font-size: 36px;
   line-height: 2.5em;
   letter-spacing: 2%;
-  margin-bottom: 32px;
+  margin-bottom: 72px;
 }
 
 .the-section-tree-ul {
@@ -308,7 +302,7 @@ address ul {
 
 /* SECTION TREE END */
 
-/* SECTION FOUR */
+/* SECTION FOUR START */
 
 .the-section-four {
   display: flex;
@@ -323,7 +317,6 @@ address ul {
   letter-spacing: 2%;
   color: #2e2f42;
   margin-bottom: 72px;
-
 }
 
 .the-section-four-list {
@@ -341,7 +334,6 @@ address ul {
 .section-four-list-item-div {
   border-bottom: 1px solid #e7e9fc;
   border-top: none;
-
   padding: 32px 16px;
   margin-bottom: 8px;
 }
@@ -381,18 +373,24 @@ address ul {
 
 /* FOOTER */
 
-.page-footer {
+.the-page-footer {
   width: 1158px;
   height: 312px;
   margin: 0 auto;
   background-color: #2e2f42;
   display: block;
-  padding: 100px 0;
+  padding: 100px 0; 
   align-items: center;
 }
 
-.footer-link {
-  margin-bottom: 16px;
+.page-footer.container {
+
+
+}
+
+.the-footer-link {
+  display: inline-block; 
+  margin-bottom: 16px; 
   cursor: pointer;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -412,8 +410,8 @@ address ul {
   color: #f4f4fd;
 }
 
-.footer-paragraph {
-  max-width: 264px;
+.the-footer-paragraph {
+  max-width: 264px; 
   color: #f4f4fd;
   font-weight: 400;
   font-size: 16px;
