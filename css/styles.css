@@ -385,7 +385,7 @@ section .section-four-list-item {
 
 .page-footer {
   width: 1158px;
-  margin-top: -72px;
+  height: 312px;
   margin: 0 auto;
   background-color: #2e2f42;
   display: block;
@@ -422,7 +422,6 @@ section .section-four-list-item {
   line-height: 1.5em;
   letter-spacing: 2%;
   margin: 0 0 10px 156px;
-  display: flex;
 }
 
 /* FOOTER END */
