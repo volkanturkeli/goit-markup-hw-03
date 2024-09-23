@@ -83,7 +83,7 @@ body {
   list-style-type: none;
 }
 .the-list-item {
-  padding: 24px 0;
+  
 }
 
 .the-nav-link {
@@ -400,6 +400,11 @@ body {
   line-height: 1.3em;
   letter-spacing: 2%;
   margin: 0 0 10px 156px;
+}
+.the-page-footer .the-footer-link {
+  margin-bottom: 16px; 
+
+
 }
 
 .footer-logo-web {
