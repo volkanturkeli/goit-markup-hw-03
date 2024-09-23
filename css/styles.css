@@ -107,6 +107,8 @@ body {
 .page-header-nav-link {
   text-decoration: none;
   color: #2e2f42;
+  padding: 24px 0;
+
 }
 
 .page-header-nav-link:hover {
@@ -160,7 +162,6 @@ body {
 
 .section-one.container {
   width: 1158px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
