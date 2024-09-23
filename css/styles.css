@@ -79,10 +79,31 @@ body {
   display: flex;
   gap: 40px;
 }
+
 .page-header-nav-list-item {
   padding: 24px 0;
 }
 
+
+
+/* --------------------------------------- */
+.page-header-nav-list li{
+
+  padding: 24px 0;
+
+}
+
+.page-header-nav li{
+  padding: 24px 0;
+
+
+}
+
+
+
+
+
+/* -------------------------------------------- */
 .page-header-nav-link {
   text-decoration: none;
   color: #2e2f42;
