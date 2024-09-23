@@ -334,8 +334,6 @@ body {
   margin-bottom: 8px;
 }
 
-
-
 .the-section-four img {
   display: block;
   cursor: pointer;
@@ -345,6 +343,10 @@ body {
   border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
+  margin-bottom: 8px;
+}
+
+.the-section-four-list div{
   margin-bottom: 8px;
 }
 
