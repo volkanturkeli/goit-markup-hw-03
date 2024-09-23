@@ -85,38 +85,10 @@ body {
 .the-list-item {
   padding: 24px 0;
 }
+li .the-list-item{
 
-.the-page-header .the-list-item {
   padding: 24px 0;
-}
 
-.the-header-nav .the-list-item {
-  padding: 24px 0;
-}
-
-.the-nav-list .the-list-item {
-  padding: 24px 0;
-}
-
-.the-page-header li {
-  padding: 24px 0;
-}
-
-.the-header-nav li {
-  padding: 24px 0;
-}
-
-.the-nav-list li {
-  padding: 24px 0;
-}
-
-.header.container.the-list-item {
-  padding: 24px 0;
-}
-
-.the-nav-link {
-  text-decoration: none;
-  color: #2e2f42;
 }
 
 .the-nav-link:hover {
