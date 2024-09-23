@@ -361,6 +361,11 @@ body {
   margin-bottom: 8px;
 }
 
+.the-section-four-list-item div {
+  margin-bottom: 8px;
+}
+
+
 .the-section-four-app {
   color: #2e2f42;
   font-weight: 500;
