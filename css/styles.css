@@ -85,10 +85,10 @@ body {
 .the-list-item {
   padding: 24px 0;
 }
-li .the-list-item{
 
-  padding: 24px 0;
-
+.the-nav-link {
+  text-decoration: none;
+  color: #2e2f42;
 }
 
 .the-nav-link:hover {
