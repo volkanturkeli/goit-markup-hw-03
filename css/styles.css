@@ -83,7 +83,6 @@ body {
   list-style-type: none;
 }
 .the-list-item {
-  
 }
 
 .the-nav-link {
@@ -343,14 +342,14 @@ body {
   cursor: pointer;
 }
 
-.the-section-four div {
-  margin-bottom: 8px;
-}
-
 .the-section-four-list-div {
   border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
+  margin-bottom: 8px;
+}
+
+.the-section-four .the-section-four-list-div {
   margin-bottom: 8px;
 }
 
@@ -379,18 +378,16 @@ body {
   margin: 0 auto;
   background-color: #2e2f42;
   display: block;
-  padding: 100px 0; 
+  padding: 100px 0;
   align-items: center;
 }
 
 .page-footer.container {
-
-
 }
 
 .the-footer-link {
-  display: inline-block; 
-  margin-bottom: 16px; 
+  display: inline-block;
+  margin-bottom: 16px;
   cursor: pointer;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -402,9 +399,7 @@ body {
   margin: 0 0 10px 156px;
 }
 .the-page-footer .the-footer-link {
-  margin-bottom: 16px; 
-
-
+  margin-bottom: 16px;
 }
 
 .footer-logo-web {
@@ -416,7 +411,7 @@ body {
 }
 
 .the-footer-paragraph {
-  max-width: 264px; 
+  max-width: 264px;
   color: #f4f4fd;
   font-weight: 400;
   font-size: 16px;
