@@ -13,25 +13,28 @@ ul {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
+
 }
 
 /* HEADER */
 
 .the-page-header {
   background-color: #ffffff;
-  color: #2e2f42;
+  width: 1158px;
   height: 72px;
+  color: #2e2f42;
   border: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
   align-items: center;
   display: flex;
   padding: 24px 0;
+  margin: 0 auto;
 }
 
-.header.container {
+.the-header {
   display: flex;
-  width: 1158px;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .container {
@@ -49,6 +52,10 @@ body {
   align-items: center;
   gap: 40px;
   list-style-type: none;
+  flex-grow: 1;
+  margin-left: 126px;
+
+
 }
 
 .the-header-logo {
@@ -57,7 +64,6 @@ body {
   line-height: 1.3em;
   letter-spacing: 3%;
   cursor: pointer;
-  margin-right: 76px;
   text-decoration: none;
 }
 
@@ -101,22 +107,26 @@ body {
   cursor: pointer;
   display: flex;
   gap: 40px;
-  margin-left: auto;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 2%;
-  align-items: center;
+  flex-grow: 1;
+
+
 }
 
 .the-header-contact-list {
+
   text-decoration: none;
   display: flex;
   gap: 40px;
 }
 
 .the-contact-list {
+  align-items: center;
+
   display: flex;
   gap: 40px;
 }
@@ -203,9 +213,12 @@ body {
 }
 
 .the-section-two {
+  width: 1158px;
+  align-items: center;
   padding: 120px 0;
   display: flex;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .the-the-section-two-list {
@@ -243,8 +256,11 @@ body {
 /*  SECTION TREE START */
 
 .the-section-tree {
+  width: 1158px;
   padding: 120px 0;
   text-align: center;
+  margin: 0 auto;
+
 }
 
 .the-section-ourteam {
@@ -300,6 +316,8 @@ body {
 .the-section-four {
   display: flex;
   padding: 120px 0;
+  margin: 0 auto;
+width: 1158px;
 }
 
 .the-section-four-h {
