@@ -13,28 +13,25 @@ ul {
 
 body {
   font-family: "Roboto", sans-serif;
-
+  background-color: #ffffff;
 }
 
 /* HEADER */
 
 .the-page-header {
   background-color: #ffffff;
-  width: 1158px;
-  height: 72px;
   color: #2e2f42;
+  height: 72px;
   border: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
   align-items: center;
   display: flex;
   padding: 24px 0;
-  margin: 0 auto;
 }
 
-.the-header {
+.header.container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  width: 1158px;
 }
 
 .container {
@@ -52,10 +49,6 @@ body {
   align-items: center;
   gap: 40px;
   list-style-type: none;
-  flex-grow: 1;
-  margin-left: 126px;
-
-
 }
 
 .the-header-logo {
@@ -64,6 +57,7 @@ body {
   line-height: 1.3em;
   letter-spacing: 3%;
   cursor: pointer;
+  margin-right: 76px;
   text-decoration: none;
 }
 
@@ -107,26 +101,22 @@ body {
   cursor: pointer;
   display: flex;
   gap: 40px;
+  margin-left: auto;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 2%;
-  flex-grow: 1;
-
-
+  align-items: center;
 }
 
 .the-header-contact-list {
-
   text-decoration: none;
   display: flex;
   gap: 40px;
 }
 
 .the-contact-list {
-  align-items: center;
-
   display: flex;
   gap: 40px;
 }
@@ -212,12 +202,18 @@ body {
   overflow: hidden;
 }
 
-.the-section-two {
+.section-two .container {
   width: 1158px;
-  align-items: center;
-  padding: 120px 0;
   display: flex;
   justify-content: center;
+}
+
+.the-section-two {
+  width: 1128px;
+  height: 104px;
+  padding: 120px 0;
+  display: flex;
+  align-items: center;
   margin: 0 auto;
 }
 
@@ -228,6 +224,7 @@ body {
 
 .the-section-two-list-item {
   background-color: #ffffff;
+  padding: 24px 0;
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
@@ -256,11 +253,8 @@ body {
 /*  SECTION TREE START */
 
 .the-section-tree {
-  width: 1158px;
   padding: 120px 0;
   text-align: center;
-  margin: 0 auto;
-
 }
 
 .the-section-ourteam {
@@ -316,8 +310,6 @@ body {
 .the-section-four {
   display: flex;
   padding: 120px 0;
-  margin: 0 auto;
-width: 1158px;
 }
 
 .the-section-four-h {
