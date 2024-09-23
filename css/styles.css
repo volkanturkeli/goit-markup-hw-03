@@ -208,11 +208,6 @@ body {
   justify-content: center;
 }
 
-.section-two.container {
-  display: flex;
-  justify-content: center;
-}
-
 .the-the-section-two-list {
   display: flex;
   gap: 24px;
@@ -220,7 +215,6 @@ body {
 
 .the-section-two-list-item {
   background-color: #ffffff;
-  padding: 20px;
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
