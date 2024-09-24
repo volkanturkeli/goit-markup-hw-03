@@ -234,13 +234,13 @@ body {
   background-color: #f4f4fd;
 }
 
-.the-section-ourteam {
+.the-section-tree-ourteam {
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
   line-height: 2.5em;
   letter-spacing: 2%;
-  margin-bottom: 72px;
+  text-align: center;
 }
 
 .the-section-tree-ul {
