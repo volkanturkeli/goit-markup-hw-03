@@ -26,6 +26,7 @@ body {
   align-items: center;
   display: flex;
   padding: 24px 0;
+  
 }
 
 .container {
@@ -124,7 +125,7 @@ body {
 
 /* MAIN SECTION ONE */
 
-.the-section-one {
+.section-one {
   margin: 0 auto;
   background-color: #2e2f42;
   max-height: 600px;
@@ -133,6 +134,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  
 }
 
 .h-section-one {
@@ -186,27 +188,28 @@ body {
   overflow: hidden;
 }
 
-.the-section-two {
-  height: 104px;
+.section-two {
+  max-height: 344px;
   padding: 120px 0;
   display: flex;
   align-items: center;
   margin: 0 auto;
   background-color: #f4f4fd;
-
 }
 
-.the-the-section-two-list {
+.section-two-list {
+
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 24px;
 }
 
-.the-section-two-list-item {
-  padding: 24px 0;
+.section-two-list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-.the-section-two-h {
+.section-two-h {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -215,7 +218,7 @@ body {
   margin-bottom: 8px;
 }
 
-.the-section-two-paragraph {
+.section-two-paragraph {
   height: 72px;
   font-weight: 400;
   font-size: 16px;
@@ -228,13 +231,14 @@ body {
 
 /*  SECTION TREE START */
 
-.the-section-tree {
+.section-tree {
+  max-height: 732px;
   padding: 120px 0;
   text-align: center;
   background-color: #f4f4fd;
 }
 
-.the-section-tree-ourteam {
+.section-tree-ourteam {
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
@@ -243,12 +247,12 @@ body {
   text-align: center;
 }
 
-.the-section-tree-ul {
+.section-tree-ul {
   display: flex;
   gap: 24px;
 }
 
-.the-section-tree-list {
+.section-tree-list {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -257,27 +261,33 @@ body {
   padding: 32px 0;
 }
 
-.the-section-tree-personal-list {
+.section-tree-personal-list {
   background-color: #ffffff;
   padding: 32px 0;
 }
 
-.the-section-tree-h {
+.section-tree-h {
+  color: #434455;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+  text-align: center;
   margin-bottom: 8px;
 }
 
-.the-section-tree-p {
+.section-tree-p {
   font-weight: 400;
-  color: #434455;
+  color: #2e2f42;
   text-align: center;
 }
 
-.the-section-tree img {
+.section-tree img {
   display: block;
   margin: 0 auto;
 }
 
-.the-section-tree img:hover {
+.section-tree img:hover {
   opacity: 0.8;
 }
 
@@ -285,12 +295,12 @@ body {
 
 /* SECTION FOUR START */
 
-.the-section-four {
+.section-four {
   display: flex;
   padding: 120px 0;
 }
 
-.the-section-four-h {
+.section-four-h {
   font-weight: 700;
   font-size: 36px;
   line-height: 2.5em;
@@ -300,30 +310,30 @@ body {
   margin-bottom: 72px;
 }
 
-.the-section-four-list {
+.section-four-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
 
-.the-section-four-list-item {
+.section-four-list-item {
   flex-basis: calc((100% - 72px) / 4);
   margin-bottom: 8px;
 }
 
-.the-section-four img {
+.section-four img {
   display: block;
   cursor: pointer;
 }
 
-.the-section-four-list-div {
+.section-four-list-div {
   border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
 }
 
-.the-section-four-app {
+.section-four-app {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -332,7 +342,7 @@ body {
   margin-bottom: 8px;
 }
 
-.the-section-four-paragraph {
+.section-four-paragraph {
   color: #434455;
   font-weight: 400;
   font-size: 16px;
@@ -343,7 +353,7 @@ body {
 
 /* FOOTER */
 
-.the-page-footer {
+.page-footer {
   height: 312px;
   margin: 0 auto;
   background-color: #2e2f42;
@@ -352,10 +362,7 @@ body {
   align-items: center;
 }
 
-.page-footer.container {
-}
-
-.the-footer-link {
+.footer-link {
   display: inline-block;
   margin-bottom: 16px;
   cursor: pointer;
@@ -368,7 +375,7 @@ body {
   letter-spacing: 2%;
   margin: 0 0 10px 156px;
 }
-.the-page-footer .the-footer-link {
+.page-footer .footer-link {
   margin-bottom: 16px;
 }
 
@@ -380,7 +387,7 @@ body {
   color: #f4f4fd;
 }
 
-.the-footer-paragraph {
+.footer-paragraph {
   max-width: 264px;
   color: #f4f4fd;
   font-weight: 400;
