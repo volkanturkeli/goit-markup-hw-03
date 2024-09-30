@@ -121,8 +121,6 @@ body {
 
 .section-one {
   background-color: #2e2f42;
-  width: 1158px;
-  margin: 0 auto;
   max-height: 600px;
   align-items: center;
   padding: 188px 0;
@@ -339,8 +337,6 @@ body {
 /* FOOTER */
 
 .page-footer {
-  width: 1158px;
-  margin: 0 auto;
   background-color: #2e2f42;
   padding: 100px 0;
 }
@@ -349,6 +345,8 @@ body {
   margin: 0 0 10px 156px;
   letter-spacing: 2%;
   color: #f4f4fd;
+  margin: 0 auto;
+
 }
 
 .footer-link {
