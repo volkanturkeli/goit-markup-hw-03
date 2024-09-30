@@ -125,10 +125,11 @@ body {
   margin: 0 auto;
   max-height: 600px;
   align-items: center;
+  padding: 188px 0;
+
 }
 
 .section-one-div {
-  padding: 188px 0;
   justify-content: center;
   color: #fff;
 }
