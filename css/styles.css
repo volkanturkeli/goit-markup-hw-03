@@ -352,6 +352,7 @@ body {
 }
 
 .footer-link {
+  display: inline-block;
   margin-bottom: 16px;
   cursor: pointer;
   font-family: "Raleway", sans-serif;
