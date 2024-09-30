@@ -13,7 +13,6 @@ ul {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
 }
 
 /* HEADER */
@@ -22,7 +21,6 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
-
 
 .page-header {
   background-color: #ffffff;
@@ -33,7 +31,6 @@ body {
   display: flex;
   padding: 24px 0;
 }
-
 
 .header-div {
   display: flex;
@@ -102,11 +99,9 @@ body {
   letter-spacing: 2%;
   align-items: center;
   justify-content: center;
-
 }
 
 .page-header-contact-list {
-
   display: flex;
   gap: 40px;
 }
@@ -114,7 +109,6 @@ body {
 .page-contact-link {
   text-decoration: none;
   color: #434455;
-
 }
 
 .page-contact-link:hover {
@@ -129,19 +123,18 @@ body {
   background-color: #2e2f42;
   width: 1158px;
   margin: 0 auto;
-  display: flex;
   max-height: 600px;
+  align-items: center;
 }
 
 .section-one-div {
   padding: 188px 0;
   justify-content: center;
-  align-items: center;
+  color: #fff;
 }
 
 .h-section-one {
   max-width: 496px;
-  color: #ffffff;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.3em;
@@ -151,11 +144,8 @@ body {
 }
 
 .button-section-one {
-  width: 169px;
-  height: 56px;
   display: block;
   min-width: 169px;
-  height: 56px;
   background-color: #4d5ae5;
   color: #ffffff;
   font-weight: 500;
@@ -191,15 +181,10 @@ body {
 }
 
 .section-two {
-  max-height: 344px;
   padding: 120px 0;
   display: flex;
-  align-items: center;
-  margin: 0 auto;
-  background-color: #f4f4fd;
-
-  /* BORDER BOX EKLENECEK */
-  /* PADDING VE MARGIN DUZENLENECEK */
+  line-height: 1.5em;
+  letter-spacing: 2%;
 }
 
 .section-two-list {
@@ -217,18 +202,13 @@ body {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5em;
-  letter-spacing: 2%;
   margin-bottom: 8px;
 }
 
 .section-two-paragraph {
-  height: 72px;
+  color: #434455;
   font-weight: 400;
   font-size: 16px;
-  letter-spacing: 2%;
-  color: #434455;
-  line-height: 1.5em;
 }
 
 /*  SECTION TWO END */
@@ -238,7 +218,6 @@ body {
 .section-tree {
   max-height: 732px;
   padding: 120px 0;
-  text-align: center;
   background-color: #f4f4fd;
 }
 
@@ -249,46 +228,47 @@ body {
   line-height: 2.5em;
   letter-spacing: 2%;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .section-tree-ul {
   display: flex;
+  flex-direction: row;
   gap: 24px;
+  align-items: center;
 }
 
 .section-tree-list {
+  flex-wrap: wrap;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  margin-bottom: 8px;
   padding: 32px 0;
 }
 
 .section-tree-personal-list {
-  background-color: #ffffff;
   padding: 32px 0;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+  text-align: center;
 }
 
 .section-tree-h {
   color: #434455;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5em;
-  letter-spacing: 2%;
-  text-align: center;
   margin-bottom: 8px;
 }
 
 .section-tree-p {
   font-weight: 400;
+  font-size: 16px;
   color: #2e2f42;
-  text-align: center;
 }
 
 .section-tree img {
   display: block;
-  margin: 0 auto;
 }
 
 .section-tree img:hover {
@@ -358,16 +338,19 @@ body {
 /* FOOTER */
 
 .page-footer {
-  height: 312px;
+  width: 1158px;
   margin: 0 auto;
   background-color: #2e2f42;
-  display: block;
-  padding: 100px 0;
-  align-items: center;
+  padding: 120px 0;
+}
+
+.page-footer-div {
+  margin: 0 0 10px 156px;
+  letter-spacing: 2%;
+  color: #f4f4fd;
 }
 
 .footer-link {
-  display: inline-block;
   margin-bottom: 16px;
   cursor: pointer;
   font-family: "Raleway", sans-serif;
@@ -376,29 +359,17 @@ body {
   color: #ffffff;
   font-size: 18px;
   line-height: 1.3em;
-  letter-spacing: 2%;
-  margin: 0 0 10px 156px;
-}
-.page-footer .footer-link {
-  margin-bottom: 16px;
 }
 
 .footer-logo-web {
   color: #4d5ae5;
 }
 
-.footer-logo-studio {
-  color: #f4f4fd;
-}
-
 .footer-paragraph {
   max-width: 264px;
-  color: #f4f4fd;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5em;
-  letter-spacing: 2%;
-  margin: 0 0 10px 156px;
 }
 
 /* FOOTER END */
