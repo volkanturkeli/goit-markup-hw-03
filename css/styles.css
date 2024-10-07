@@ -219,6 +219,7 @@ body {
   padding: 120px 0;
   background-color: #f4f4fd;
   margin-bottom: 120px;
+  display: flex;
 }
 
 
@@ -237,10 +238,13 @@ body {
   flex-direction: row;
   gap: 24px;
   align-items: center;
+  flex-wrap: wrap;
+
 }
 
 .section-tree-list {
   flex-wrap: wrap;
+
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 6px 0px rgba(0, 0, 0, 0.12);
@@ -298,11 +302,14 @@ body {
 .section-four-list {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
   column-gap: 24px;
   row-gap: 48px;
 }
 
 .section-four-list-item {
+  flex-wrap: wrap;
   flex-basis: calc((100% - 72px) / 4);
   margin-bottom: 8px;
 }
